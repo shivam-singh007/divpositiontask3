@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+.outer{
+    height: 650px;
+    width: 40%;
+    border:2px solid rgb(120, 241, 183);
+    background-color: white;
+    margin: 10px 300px;
+}
+
+.inner{
+    height: 600px;
+    width: 80%;
+    border: 2px solid black;
+    position: relative;
+    top: 10px;
+    left: 60px;
+    background-color: beige;
+}
+
+.top{
+    height: 150px;
+    width: 80%;
+    border: 4px solid orange;
+    position: relative;
+    left: 10px;
+    background: url("shivam7.jpeg");
+    background-size: cover;
+}
+
+.bottom{
+    height: 320px;
+    width: 80%;
+    border: 6px dashed orange;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    background-color: yellow;
+    line-height: 23px;
+    overflow: auto;
+}
+b{
+    padding: 10px 5px;
+}
